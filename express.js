@@ -3,7 +3,7 @@ var app = express();
 const date= new Date()
 
 const contactsRoutes = require("./routes/contact.js");
-const servicesRoutes = require("./routes/contact.js");
+const servicesRoutes = require("./routes/services.js");
 
 app.use(contactsRoutes);
 app.use(servicesRoutes);
